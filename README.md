@@ -1,6 +1,6 @@
 # Deployement of Machine Learning model on Heroku using Docker and RestAPI
 
-In this project a multiple regression model is deployed on Heroku using Docker and Flask API.
+In this project, a multiple regression model is deployed on Heroku using Docker and Flask API.
 
 ![alt text](https://user-images.githubusercontent.com/77075553/104852589-2aeb5200-58fc-11eb-9cb7-8bbc559eae8c.jpeg)
 
