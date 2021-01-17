@@ -58,7 +58,9 @@ docker run -p 5000 -d docker-startup
 heroku create startup-profit-app
 ```
 2. Create a heroku.yml file : 
-We need to create a heroku.yml file, so we can deploy our image docker on Heroku. This is a new 'file manifest' that can be used to define the build.
+We need to create a heroku.yml file, so we can deploy our image docker on Heroku. 
+This is a new 'file manifest' that can be used to define the build.
+
 It includes 2 sections to specify how an application should be created and run.
 
 3. Change the Heroku stack by default and set the stack container : 
