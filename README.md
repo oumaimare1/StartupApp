@@ -10,7 +10,10 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 * Part 2 - Dockerize the Application
 * Part 3 - Deploy the Application to Heroku
 
-![alt text](https://user-images.githubusercontent.com/77075553/104852592-2d4dac00-58fc-11eb-8c42-555e975045af.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/77075553/104852592-2d4dac00-58fc-11eb-8c42-555e975045af.png" width="400">
+</p>
+
 
 ### Prerequisites
  - Docker 
