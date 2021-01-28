@@ -8,6 +8,7 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 ## Table of contents : 
 - [General Info](#general-info)
   * [Project Steps](#project-steps--)
+  * [Docker](#docker)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Part 1 - Create A Basic Flask App](#part-1---create-a-basic-flask-app)
@@ -18,10 +19,14 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 
 
 ## General Info 
-The model created is used to predict a startups profit using Multiple Linear Regression in Python. The dataset used contains the details of 50 startups and predicts the profit of a new Startup based on certain features.
+The model created is used to predict a startups profit using Multiple Linear Regression in Python. The dataset used contains the details of 50 startups and predicts the profit of a new Startup based on certain features. I will deploy this model on Heroku using Flask and Docker.
+
+### Docker : 
+Docker is a containerization service that allows for websites, APIs, databases, and, in our case, data science models to be deployed anywhere and ran with a few to only one line of code.
+Docker is lightweight and doesn't take up as much memory as other methods and has a faster startup time. Allowing you to easily update your models and test and deploy the changes quickly.
 
 ### Project Steps : 
-* Part 1 - Create A Flask App
+* Part 1 -  Train and save the model & Create A Flask App
 * Part 2 - Dockerize the Application
 * Part 3 - Deploy the Application to Heroku
 
@@ -45,6 +50,8 @@ This project has four major parts :
 4. templates & static - This folders contains the HTML & CSS templates to allow user to enter employee detail and displays the predicted startup profit.
 
 ## Part 1 - Create A Basic Flask App
+Create an API to send data and make predictions with my model
+
 1. Clone this repo to your desktop, and install all the dependencies : 
 ```
 install -r requirements.txt
@@ -61,6 +68,7 @@ python app.py
 By default, flask will run on http://0.0.0.0:5000/ (localhost)
 
 ## Part 2 - Dockerize the Application
+Create a Dockerfile specified to my model and it’s requirements.
 
 1. Enter the command to create the Docker image from the file Dockerfile : 
 ```
