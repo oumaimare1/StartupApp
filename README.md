@@ -7,13 +7,13 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 
 ## Table of contents : 
 - [General Info](#general-info)
-  * [Project Steps :](#project-steps--)
+  * [Project Steps](#project-steps--)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Part 1 - Create A Basic Flask App](#part-1---create-a-basic-flask-app)
 - [Part 2 - Dockerize the Application](#part-2---dockerize-the-application)
 - [Part 3 - Deploy the Application to Heroku](#part-3---deploy-the-application-to-heroku)
-- [The Heroku App :](#the-heroku-app)
+- [The Heroku App](#the-heroku-app)
 
 
 
@@ -73,6 +73,7 @@ docker run -p 5000 -d docker-startup
 heroku create startup-profit-app
 ```
 2. Create a heroku.yml file : 
+
 We need to create a heroku.yml file, so we can deploy our image docker on Heroku. 
 This is a new 'file manifest' that can be used to define the build.
 
