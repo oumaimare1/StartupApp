@@ -18,7 +18,7 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 
 
 ## General Info 
-
+The model created is used to predict a startups profit using Multiple Linear Regression in Python. The dataset used contains the details of 50 startups and predicts the profit of a new Startup based on certain features.
 
 ### Project Steps : 
 * Part 1 - Create A Flask App
@@ -31,10 +31,11 @@ In this project, a multiple regression model is deployed on Heroku using Docker 
 
 
 ## Prerequisites
- - Docker 
- - Scikit Learn
- - Pandas 
- - Flask 
+* [Docker](https://www.docker.com/)
+* [Scikit Learn](https://scikit-learn.org/stable/)
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
  
 ## Project Structure
 This project has four major parts :
@@ -44,12 +45,16 @@ This project has four major parts :
 4. templates & static - This folders contains the HTML & CSS templates to allow user to enter employee detail and displays the predicted startup profit.
 
 ## Part 1 - Create A Basic Flask App
-1. Create the machine learning model by running below command - This would create a serialized version of our model into a file model.pkl
+1. Clone this repo to your desktop, and install all the dependencies : 
+```
+install -r requirements.txt
+```
+2. Create the machine learning model by running below command - This would create a serialized version of our model into a file model.pkl
 ```
 python model.py
 ```
 
-2. Run app.py using below command to start Flask API
+3. Run app.py using below command to start Flask API
 ```
 python app.py
 ```
